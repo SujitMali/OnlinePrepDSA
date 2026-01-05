@@ -1,3 +1,5 @@
+package Final_Dsa_Prep_For_OA;
+
 import java.util.*;
 
 // This class represents ONE monster as a single unit.
@@ -51,7 +53,7 @@ public class RPG {
 
         // -------- DATA STRUCTURING --------
 
-        // Convert raw input arrays into Monster objects
+        // Convert raw input arrays into Final_Dsa_Prep_For_OA.Monster objects
         // Logical reason:
         // We want each monster to be treated as a single entity
         // so that power and bonus never get mismatched.
@@ -66,7 +68,7 @@ public class RPG {
         // LOGIC:
         // Always fight the weakest monster first to grow experience safely.
         // TECHNICAL:
-        // Custom comparator sorts Monster objects based on power.
+        // Custom comparator sorts Final_Dsa_Prep_For_OA.Monster objects based on power.
         Collections.sort(monsters, (a, b) -> a.power - b.power);
 
         // -------- GAME SIMULATION --------

@@ -1,3 +1,5 @@
+package Final_Dsa_Prep_For_OA;
+
 import java.util.*;
 
 public class RpgPractice1 {
