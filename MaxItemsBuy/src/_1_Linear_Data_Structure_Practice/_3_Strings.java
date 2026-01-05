@@ -9,10 +9,7 @@ public class _3_Strings {
             char temp = st.charAt(i);
             st.setCharAt(i, st.charAt(st.length() - 1 - i));
             st.setCharAt((st.length() - 1 - i), temp);
-
         }
-
         System.out.println(st);
-
     }
 }
