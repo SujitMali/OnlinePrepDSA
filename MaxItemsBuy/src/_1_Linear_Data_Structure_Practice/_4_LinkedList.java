@@ -21,7 +21,6 @@ public class _4_LinkedList {
             temp = temp.next;
         }
         System.out.println("null");
-
     }
 }
 
