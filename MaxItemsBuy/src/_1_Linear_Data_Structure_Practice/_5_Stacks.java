@@ -10,7 +10,7 @@ public class _5_Stacks {
         // 2. Push (Add actions)
         history.push("Typed 'Hello'");
         history.push("Typed 'World'");
-        history.push("Deleted 'World'"); // <--- This is at the TOP now
+        history.push("Deleted 'World'");
         System.out.println("Initial Stack : " + history);
 
         // 3. Peek (What was the last thing I did?)
