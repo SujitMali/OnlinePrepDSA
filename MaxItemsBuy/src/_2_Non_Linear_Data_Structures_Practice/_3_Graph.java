@@ -54,7 +54,8 @@ public class _3_Graph {
         addEdge(adj, 3, 5);
         addEdge(adj, 5, 7);
 
-//      Graphs UnDirected Graph
+//      Implemented UnDirected Graph.
+//      Above graph is this below one implemented
 //            1 --- 3 --- 5 --- 7
 //        0
 //            2 --- 4 --- 6
